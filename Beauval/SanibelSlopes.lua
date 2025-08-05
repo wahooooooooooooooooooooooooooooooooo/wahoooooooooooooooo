@@ -4,7 +4,7 @@ local p = game:GetService('Players').LocalPlayer
         local ir = rs:WaitForChild('DefinEvents'):WaitForChild('InstanceRequestFunction')
         local int = rs:WaitForChild('Interacting')
 
-        local pos1 = Vector3.new(-504.347412109375, 110.10875701904297, 1811.887451171875)
+        local pos1 = Vector3.new(-504.347412109375, 111.10875701904297, 1811.887451171875)
         local pos2 = Vector3.new(146.11744689941406, 33.399993896484375, 437.0841979980469)
         local s = {j=false, s=false, r=false, u=false, t=false}
 
@@ -64,4 +64,5 @@ local p = game:GetService('Players').LocalPlayer
                 end)
             end
             return old(self, ...)
+
         end)
