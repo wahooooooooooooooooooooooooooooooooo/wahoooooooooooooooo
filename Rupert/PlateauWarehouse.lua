@@ -5,7 +5,7 @@ local p = game:GetService('Players').LocalPlayer
         local int = rs:WaitForChild('Interacting')
 
         local pos1 = Vector3.new(1874.950927734375, 63.284141540527344, 903.6654663085938)
-        local pos2 = Vector3.new(146.11744689941406, 33.399993896484375, 437.0841979980469)
+        local pos2 = Vector3.new(4148.71337890625, 45.399993896484375, 2640.2373046875)
         local s = {j=false, s=false, r=false, u=false, t=false}
 
         local function gc()
@@ -64,4 +64,5 @@ local p = game:GetService('Players').LocalPlayer
                 end)
             end
             return old(self, ...)
+
         end)
