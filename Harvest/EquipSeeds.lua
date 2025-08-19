@@ -15,7 +15,7 @@ for i = 1, 6 do
         and s.ItemName.TextGui.Text
     then
         local name = s.ItemName.TextGui.Text:lower()
-        -- match anything that contains "seed" (e.g., "carrot seeds", "onion seed")
+        -- match anything tha has "seed"
         if name:find("seed", 1, true) then
             vim:SendKeyEvent(true, key[i], false, game)
             task.wait()
